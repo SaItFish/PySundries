@@ -13,6 +13,7 @@
 深拷贝 图的搜索 Hash表
 """
 
+
 # Definition for a Node.
 class Node:
     def __init__(self, x: int, next: Node = None, random: Node = None):

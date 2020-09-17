@@ -41,7 +41,7 @@ class Solution:
         for k in range(j, r + 1):
             tmp[pos] = nums[k]
             pos += 1
-        nums[l : r + 1] = tmp[l : r + 1]
+        nums[l: r + 1] = tmp[l: r + 1]
         return inv_count
 
     def reversePairs(self, nums: List[int]) -> int:

@@ -25,6 +25,7 @@ from typing import List
 class Solution:
     def minNumber(self, nums: List[int]) -> str:
         strs = [str(num) for num in nums]
+
         # 快速排序
         def fast_sort(left, right):
             if left >= right:
@@ -60,4 +61,3 @@ class Solution:
         strs = [str(num) for num in nums]
         strs.sort(key=functools.cmp_to_key(sort_rule))
         return "".join(strs)
-

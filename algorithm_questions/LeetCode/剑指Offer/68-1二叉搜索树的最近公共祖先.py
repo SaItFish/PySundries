@@ -12,7 +12,7 @@
 
 示例 1:
 输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
-输出: 6 
+输出: 6
 解释: 节点 2 和节点 8 的最近公共祖先是 6。
 
 示例 2:
@@ -21,6 +21,8 @@
 解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身。
 
 """
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):

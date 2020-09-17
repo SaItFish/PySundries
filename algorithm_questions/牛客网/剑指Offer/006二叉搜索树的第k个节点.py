@@ -20,5 +20,4 @@ class TreeNode:
 class Solution:
     # 返回对应节点TreeNode
     def KthNode(self, pRoot, k):
-
         pass

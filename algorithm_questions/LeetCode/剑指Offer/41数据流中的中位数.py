@@ -8,7 +8,7 @@
 
 例如，
 
-[2,3,4] 的中位数是 3
+[2,3,4] 的中位数是 3
 
 [2,3] 的中位数是 (2 + 3) / 2 = 2.5
 
@@ -31,9 +31,8 @@ double findMedian() - 返回目前所有元素的中位数。
 
 插入排序  小顶堆，大顶堆
 """
-from typing import List
-
 from heapq import *  # heapq 模块是小顶堆，大顶堆可以用负值存储
+from typing import List
 
 
 class MedianFinder:

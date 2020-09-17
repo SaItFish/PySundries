@@ -12,7 +12,7 @@
 
 双指针
 """
-from typing import List
+
 
 # Definition for singly-linked list.
 class ListNode:

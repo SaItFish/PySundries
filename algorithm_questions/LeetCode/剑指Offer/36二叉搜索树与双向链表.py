@@ -19,6 +19,7 @@
 """
 from typing import List
 
+
 # Definition for a Node.
 class Node:
     def __init__(self, val, left=None, right=None):

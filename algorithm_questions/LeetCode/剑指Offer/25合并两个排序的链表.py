@@ -11,6 +11,8 @@
 输出：1->1->2->3->4->4
 
 """
+
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):

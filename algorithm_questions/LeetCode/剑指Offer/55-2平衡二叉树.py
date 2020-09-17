@@ -26,9 +26,11 @@
    3   3
   / \
  4   4
-返回 false
+返回 false
 
 """
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):

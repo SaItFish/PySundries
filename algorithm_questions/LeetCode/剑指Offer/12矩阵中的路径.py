@@ -49,11 +49,9 @@ class Solution:
             return True
 
         self.board[x][y] = "#"
-
         for i in range(4):
             if self.__dfs(x + self.d[i], y + self.d[i + 1], pos + 1):
                 return True
-
         self.board[x][y] = ch
-        return False
 
+        return False

@@ -16,8 +16,8 @@
 
 数位运算  异或
 """
-from typing import List
 import functools
+from typing import List
 
 
 class Solution:

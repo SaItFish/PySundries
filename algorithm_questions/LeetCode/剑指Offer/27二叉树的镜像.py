@@ -8,18 +8,18 @@
 
 例如输入：
 
-     4
-   /   \
-  2     7
- / \   / \
-1   3 6   9
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
 镜像输出：
 
-     4
-   /   \
-  7     2
- / \   / \
-9   6 3   1
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
 
 
 示例 1：
@@ -27,6 +27,8 @@
 输出：[4,7,2,9,6,3,1]
 
 """
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
@@ -46,4 +48,3 @@ class Solution:
             return A
 
         return exchange(root)
-

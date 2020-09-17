@@ -16,5 +16,5 @@ class Solution:
             return []
         res = []
         for i in range(len(num) - size + 1):
-            res.append(max(num[i : i + size]))
+            res.append(max(num[i: i + size]))
         return res

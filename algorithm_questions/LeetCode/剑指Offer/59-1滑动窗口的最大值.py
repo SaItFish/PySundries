@@ -22,7 +22,7 @@
  1  3  -1  -3  5 [3  6  7]      7
 
 提示：
-你可以假设 k 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。
+你可以假设 k 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。
 
 单调队列
 """
@@ -31,7 +31,7 @@ from typing import List
 
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-        return [max(nums[i : i + k]) for i in range(len(nums) - k + 1)] if nums else []
+        return [max(nums[i: i + k]) for i in range(len(nums) - k + 1)] if nums else []
 
     def maxSlidingWindow_better(self, nums: List[int], k: int) -> List[int]:
         if not nums or k == 0:

@@ -7,7 +7,7 @@
 输入一棵二叉树和一个整数，打印出二叉树中节点值的和为输入整数的所有路径。从树的根节点开始往下一直到叶节点所经过的节点形成一条路径。
 
 示例:
-给定如下二叉树，以及目标和 sum = 22，
+给定如下二叉树，以及目标和 sum = 22，
 
               5
              / \
@@ -25,6 +25,7 @@
 深度优先搜索，剪枝
 """
 from typing import List
+
 
 # Definition for a binary tree node.
 class TreeNode:

@@ -8,7 +8,7 @@
 
 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
 
-示例 1:
+示例 1:
 输入:      1         1
           / \       / \
          2   3     2   3
@@ -26,7 +26,7 @@
 
 输出: false
 
-示例 3:
+示例 3:
 输入:      1         1
           / \       / \
          2   1     1   2
@@ -37,6 +37,7 @@
 
 """
 import collections
+
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -59,7 +60,7 @@ class Solution:
                 return False
             return True
 
-        deq = collections.deque([(p, q),])
+        deq = collections.deque([(p, q), ])
         while deq:
             p, q = deq.popleft()
             if not check(p, q):

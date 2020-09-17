@@ -15,9 +15,11 @@
   9  20
     /  \
    15   7
-返回它的最大深度 3 。
+返回它的最大深度 3 。
 
 """
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):

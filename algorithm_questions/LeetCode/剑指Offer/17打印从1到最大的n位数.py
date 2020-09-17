@@ -24,7 +24,7 @@ class Solution2:
     def printNumbers(self, n: int) -> [int]:
         def dfs(x):
             if x == n:
-                s = "".join(num[self.start :])
+                s = "".join(num[self.start:])
                 if s != "0":
                     res.append(int(s))
                 if n - self.start == self.nine:

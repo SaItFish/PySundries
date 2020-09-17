@@ -6,7 +6,7 @@
 """
 请实现两个函数，分别用来序列化和反序列化二叉树。
 
-示例: 
+示例:
 你可以将以下二叉树：
 
     1
@@ -17,6 +17,8 @@
 序列化为 "[1,2,3,null,null,4,5]"
 
 """
+
+
 # Definition for a binary tree node.
 class TreeNode(object):
     def __init__(self, x):
@@ -28,7 +30,7 @@ class TreeNode(object):
 class Codec:
     def serialize(self, root):
         """Encodes a tree to a single string.
-        
+
         :type root: TreeNode
         :rtype: str
         """
@@ -48,7 +50,7 @@ class Codec:
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
-        
+
         :type data: str
         :rtype: TreeNode
         """

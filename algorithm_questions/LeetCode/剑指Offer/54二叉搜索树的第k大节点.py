@@ -12,7 +12,7 @@
   / \
  1   4
   \
-   2
+   2
 输出: 4
 
 示例 2:
@@ -27,6 +27,8 @@
 输出: 4
 
 """
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):

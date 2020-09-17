@@ -8,22 +8,23 @@
 
 最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
 
-说明: 叶子节点是指没有子节点的节点。
+说明: 叶子节点是指没有子节点的节点。
 
 示例:
 
-给定二叉树 [3,9,20,null,null,15,7],
+给定二叉树 [3,9,20,null,null,15,7],
 
     3
    / \
   9  20
     /  \
    15   7
-返回它的最小深度  2.
+返回它的最小深度  2.
 
 BFS 剪枝
 """
 from collections import deque
+
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -38,7 +39,7 @@ class Solution:
         if not root:
             return 0
         else:
-            node_deque = deque([(1, root),])
+            node_deque = deque([(1, root), ])
 
         while node_deque:
             depth, root = node_deque.popleft()

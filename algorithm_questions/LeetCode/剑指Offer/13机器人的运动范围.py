@@ -25,7 +25,6 @@ class Solution:
             return sum(temp)
 
         def dfs(x: int, y: int):
-            global res
             # 是否越界，是否已经走过
             if x < 0 or x >= m or y < 0 or y >= n or mark[x][y] == 1:
                 return False
