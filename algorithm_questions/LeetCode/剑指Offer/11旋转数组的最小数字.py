@@ -23,7 +23,7 @@ class Solution:
     def minArray(self, numbers: List[int]) -> int:
         return min(numbers)
 
-    def min_array_better(self, numbers: [int]) -> int:
+    def min_array_better(self, numbers: List[int]) -> int:
         i, j = 0, len(numbers) - 1
         while i < j:
             m = (i + j) // 2
