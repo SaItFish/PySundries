@@ -26,8 +26,11 @@
 """
 
 
+from typing import List
+
+
 class Solution:
-    def verifyPostorder(self, postorder: [int]) -> bool:
+    def verifyPostorder(self, postorder: List[int]) -> bool:
         def recur(i, j):
             if i >= j:  # [i,j] 区间
                 return True  # 当 i>=j ，说明此子树节点数量<=1 ，无需判别正确性，因此直接返回 true

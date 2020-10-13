@@ -4,9 +4,6 @@ url = "https://mirrors.aliyun.com/pypi/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
-black = "*"
-rope = "*"
 
 [packages]
 requests = "*"
@@ -14,7 +11,7 @@ openpyxl = "*"
 pypdf2 = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
 
 [pipenv]
 allow_prereleases = true
